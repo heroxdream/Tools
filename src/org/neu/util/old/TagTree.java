@@ -14,7 +14,7 @@ import org.neu.util.io.FileUtils;
 
 public class TagTree extends Trie<String, String> {
 
-	private final static Logger log = LogManager.getLogger(MailUtil.class);
+	private final static Logger log = LogManager.getLogger(TagTree.class);
 
 	private static TagTree instence;
 

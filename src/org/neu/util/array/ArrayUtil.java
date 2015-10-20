@@ -55,23 +55,4 @@ public class ArrayUtil {
 		else
 			return str;
 	}
-
-	public static int getIndex(int[] array, int value) {
-
-		for (int i = 0; i < array.length; i++) {
-			if (array[i] == value) {
-				return i;
-			}
-		}
-		return -1;
-	}
-
-	public static boolean checkNegativeElement(double[] array) {
-
-		for (double e : array) {
-			if (e < 0)
-				return true;
-		}
-		return false;
-	}
 }
